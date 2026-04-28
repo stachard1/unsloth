@@ -63,6 +63,16 @@ setup(
             "bitsandbytes>=0.41.3",
             "xformers",
         ],
+        # Convenience extra that pulls in everything needed for typical use
+        "all": [
+            "triton>=2.1.0",
+            "huggingface_hub>=0.20.0",
+            "peft>=0.7.0",
+            "trl>=0.7.4",
+            "accelerate>=0.26.0",
+            "bitsandbytes>=0.41.3",
+            "xformers",
+        ],
     },
     classifiers=[
         "Development Status :: 4 - Beta",
